@@ -1,0 +1,9 @@
+npm-debug.log
+node_modules/
+# IMPORTANT: Don't push SSL keys to repository.
+assets/ssl/server.*
+.DS_Store
+# .vscode/
+# .jshintrc
+# .trash
+# .env

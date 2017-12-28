@@ -1,0 +1,6 @@
+apps:
+  - script   : tuttb.js
+    env    :
+      NODE_ENV: production
+
+

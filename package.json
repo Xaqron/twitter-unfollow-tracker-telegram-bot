@@ -1,0 +1,43 @@
+{
+  "name": "tuttb",
+  "version": "0.1.0",
+  "description": "Find out who unfollows you on Twitter without any permission delegation",
+  "main": "tuttb.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./tests/*.js",
+    "fix-style": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xaqron/twitter-unfollow-tracker-telegram-bot.git"
+  },
+  "keywords": [
+    "twitter",
+    "unfollow",
+    "telegram",
+    "bot"
+  ],
+  "author": "Xaqron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xaqron/twitter-unfollow-tracker-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/Xaqron/twitter-unfollow-tracker-telegram-bot#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "nedb": "^1.8.0",
+    "node-telegram-bot-api": "^0.29.0",
+    "path": "^0.12.7",
+    "twit": "^2.2.9",
+    "twitter-followers": "^0.1.2",
+    "winston": "^2.4.0",
+    "winston-daily-rotate-file": "^1.7.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "cspell": "*",
+    "jsdoc": "^3.5.5",
+    "mocha": "^4.0.1",
+    "standard": "*"
+  }
+}
