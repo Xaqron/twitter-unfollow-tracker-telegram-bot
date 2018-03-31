@@ -24,20 +24,20 @@
   },
   "homepage": "https://github.com/Xaqron/twitter-unfollow-tracker-telegram-bot#readme",
   "dependencies": {
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.5",
     "nedb": "^1.8.0",
-    "node-telegram-bot-api": "^0.29.0",
+    "node-telegram-bot-api": "^0.30.0",
     "path": "^0.12.7",
     "twit": "^2.2.9",
     "twitter-followers": "^0.1.2",
-    "winston": "^2.4.0",
-    "winston-daily-rotate-file": "^1.7.2"
+    "winston": "^2.4.1",
+    "winston-daily-rotate-file": "^3.0.1"
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "cspell": "*",
+    "cspell": "^2.1.7",
     "jsdoc": "^3.5.5",
-    "mocha": "^4.0.1",
-    "standard": "*"
+    "mocha": "^5.0.5",
+    "standard": "^11.0.1"
   }
 }
